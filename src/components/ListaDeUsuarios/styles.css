@@ -1,0 +1,24 @@
+/* src\components\ListaDeUsuarios\styles.css */
+
+body {
+  background: linear-gradient(130deg, #093c2d, #f7ff3c);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.lista-usuarios li {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .lista-usuarios li strong {
+    font-weight: bold;
+  }
+
